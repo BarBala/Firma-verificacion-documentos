@@ -1,0 +1,66 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    {
+      "dk": "https://ld.dock.io/credentials#",
+      "HistoriaAcadMica20": "dk:HistoriaAcadMica20",
+      "claveNica": "dk:claveNica",
+      "nombreDelAlumno": "dk:nombreDelAlumno",
+      "carrera": "dk:carrera",
+      "promedio": "dk:promedio",
+      "totalDeMateriasCurricularesAcreditadas": "dk:totalDeMateriasCurricularesAcreditadas",
+      "historiaAcadMica": "dk:historiaAcadMica",
+      "name": "dk:name",
+      "description": "dk:description",
+      "logo": "dk:logo"
+    },
+    "https://ld.dock.io/credentials/prettyvc"
+  ],
+  "id": "https://creds-testnet.dock.io/3bbb755fcfbf51acb968d6a757263936b164335b8aa10c7f144f5da344caf52d",
+  "type": [
+    "VerifiableCredential",
+    "HistoriaAcadMica20",
+    "PrettyVerifiableCredential"
+  ],
+  "credentialSubject": {
+    "claveNica": "173132",
+    "nombreDelAlumno": "Alicia González Hernández",
+    "carrera": "Ingenieria en Negocios",
+    "promedio": 8,
+    "totalDeMateriasCurricularesAcreditadas": 10,
+    "historiaAcadMica": " Clave       Nombre del curso       Calificación         ADM 15533 MODELOS FINANCIEROS I 7 (siete)   ADM 15571 RENTA FIJA 6 (seis)   ADM 16644 MODELOS DE MERCADOTECNIA 8 (ocho)   COM 23106 MINERIA DE DATOS 7 (siete)   CON 10004 COMBINACION DE NEGOCIOS 7 (siete)   DER 10011 REGIMEN FISCAL MEXICANO PARA CONTADURIA PUBLICA 9 (nueve)      COM 15115 DESARROLLO DE APLICACIONES Y CONTRATOS INTELIGENTES SOBRE ETHEREUM 9 (nueve)      ADM 15535 DERIVADOS 7 (siete)   CON 10005 ANALISIS FINANCIERO DE LA EMPRESA 8 (ocho)   CON 15001 IMPUESTOS CORPORATIVOS I 9 (nueve)"
+  },
+  "issuanceDate": "2023-05-12T19:03:20.357Z",
+  "expirationDate": "2024-10-31T19:03:24.000Z",
+  "name": "Historia Académica 2.0",
+  "prettyVC": {
+    "type": "liquid",
+    "orientation": "portrait",
+    "size": "a4",
+    "proof": "<div style=\"color:rgb(9, 100, 49);font-weight:400;text-align:left;font-size:2.5em;overflow-wrap:break-word;width:100%;height:100%;position:absolute;background-color:rgb(9, 100, 49);z-index:0;left:0px;top:0px;background-size:100% 100%;background-position:left top;background-repeat:no-repeat\"></div><div style=\"display:none;left:60px\"></div><div style=\"display:none;top:70px\"></div><div style=\"position:absolute;left:14.1429%;top:44.5%;width:65.592%;opacity:1\"><div style=\"position:relative;user-select:auto;width:auto;height:auto;min-width:20px;min-height:20px;box-sizing:border-box;flex-shrink:0\"><div style=\"color:rgb(255, 255, 255);font-weight:400;text-align:left;font-size:4.25em;overflow-wrap:break-word;width:100%;height:100%\"><b>{{credential.name}}</b></div><div></div></div></div><div style=\"position:absolute;left:14.1429%;top:37%;width:65.592%;opacity:1\"><div style=\"position:relative;user-select:auto;width:auto;height:auto;min-width:20px;min-height:20px;box-sizing:border-box;flex-shrink:0\"><div style=\"color:rgb(255, 255, 255);font-family:Verdana, sans-serif;font-weight:400;text-align:left;font-size:2.5em;overflow-wrap:break-word;width:100%;height:100%\">{{subject.name}}</div><div></div></div></div><div style=\"position:absolute;left:72.7474%;top:87.625%;width:25.012%;opacity:1\"><div style=\"position:relative;user-select:auto;width:auto;height:auto;min-width:20px;min-height:20px;box-sizing:border-box;flex-shrink:0\"><div style=\"color:rgb(150, 150, 150);font-family:Verdana, sans-serif;font-weight:400;text-align:right;font-size:1.75em;overflow-wrap:break-word;width:100%;height:100%\">{{issuer.name}}</div><div></div></div></div><div style=\"position:absolute;left:30.625%;top:91.7518%;width:67.625%;height:5.30357%;opacity:1\"><div style=\"position:relative;user-select:auto;width:auto;height:auto;min-width:20px;min-height:20px;box-sizing:border-box;flex-shrink:0\"><div style=\"color:rgb(150, 150, 150);font-family:Verdana, sans-serif;font-weight:400;text-align:right;font-size:2.5em;overflow-wrap:break-word;width:100%;height:100%\">{{credential.issuanceDate | date: \"%a, %b %d, %Y\"}}</div><div></div></div></div><div style=\"position:absolute;left:2.475%;top:82.75%;width:21.125%;height:30.5839%;opacity:1\"><div style=\"position:relative;user-select:auto;width:auto;height:auto;min-width:20px;min-height:20px;box-sizing:border-box;flex-shrink:0\"><div style=\"width:100%;height:100%;background:rgb(255, 255, 255);padding:0.5em\"><img src=\"{{qrImage}}\" alt=\"Scan QR\" style=\"width:100%\" /></div><div></div></div></div><div style=\"position:absolute;left:14.1429%;top:11.6667%;width:55.1572%;opacity:1;height:12.1667%\"><div style=\"position:relative;user-select:auto;width:234px;height:73px;min-width:20px;min-height:20px;box-sizing:border-box;flex-shrink:0\"><img src=\"{{issuer.logo}}\" alt=\"VC Image\" style=\"width:100%\" /><div></div></div></div>"
+  },
+  "issuer": {
+    "name": "ITAM",
+    "description": "",
+    "logo": "data:image/png;base64,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",
+    "id": "did:dock:5CNyndj2frsf5uohYdRrEqEta48xGyyMt7m4GJXHwZ2exvFg"
+  },
+  "proof": {
+    "@context": [
+      {
+        "sec": "https://w3id.org/security#",
+        "proof": {
+          "@id": "sec:proof",
+          "@type": "@id",
+          "@container": "@graph"
+        }
+      },
+      "https://ld.dock.io/security/bbs/v1"
+    ],
+    "type": "Bls12381BBS+SignatureDock2022",
+    "created": "2023-05-12T19:06:41Z",
+    "verificationMethod": "did:dock:5CNyndj2frsf5uohYdRrEqEta48xGyyMt7m4GJXHwZ2exvFg#keys-2",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zhDiEKnyWs7bneRYDdtGCYAA7LqtNzHxgrNrsoW84J2eURpHwSjyb8zVw1xMHr1DqoxLdh9QQ9A4RVS4R4UtgjN1TtyAqVPhpKr9fkTmJaSmqsgx7hQZvETSFmvnhj2jRdZsSh2BTczfDGbMDHdPjkWtTW"
+  }
+}
